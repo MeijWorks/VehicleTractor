@@ -16,13 +16,23 @@ You should have received a copy of the GNU Lesser General Public License
 along with this program.  If not, see <http://www.gnu.org/licenses/>.
 */
 
-#ifndef ConfigVehicle_h
-#define ConfigVehicle_h
+#ifndef ConfigVehicleTractor_h
+#define ConfigVehicleTractor_h
 
+#define VOORSERIE
 // Digital inputs 12V -> 5V conversion
+
+#ifndef VOORSERIE
 
 #define WHEEL_SPEED_PIN     A4
 #define HITCH_PIN           A5
+
+#else
+
+#define WHEEL_SPEED_PIN     8
+#define HITCH_PIN           9
+
+#endif
 
 #define MINSPEED            0.5f
 

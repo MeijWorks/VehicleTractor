@@ -21,7 +21,7 @@
 #define VehicleTractor_h
 
 #include <Arduino.h>
-#include <ConfigVehicle.h>
+#include <ConfigVehicleTractor.h>
 
 // software version of this library
 #define TRACTOR_VERSION 0.1

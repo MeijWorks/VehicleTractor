@@ -1,6 +1,6 @@
 /*
   Config file for VehicleTractor
-Copyright (C) 2011-2014 J.A. Woltjer.
+Copyright (C) 2011-2015 J.A. Woltjer.
 
 This program is free software: you can redistribute it and/or modify
 it under the terms of the GNU Lesser General Public License as published by
@@ -19,7 +19,7 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.
 #ifndef ConfigVehicleTractor_h
 #define ConfigVehicleTractor_h
 
-#define VOORSERIE
+//#define VOORSERIE
 // Digital inputs 12V -> 5V conversion
 
 #ifndef VOORSERIE
